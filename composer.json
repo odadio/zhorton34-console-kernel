@@ -1,0 +1,27 @@
+{
+  "name": "odadio/zhorton34-console-kernel",
+  "description": "Implement commands from console kernel in Slim Framework",
+  "homepage": "http://github.com/odadio/zhorton34-console-kernel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zak Horton",
+      "email": "zhorton999@gmail.com",
+      "homepage": "https://www.cleancode.studio/"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Corcel\\": "src/",
+      "Corcel\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Corcel\\Laravel\\CorcelServiceProvider"
+      ]
+    }
+  }
+}
