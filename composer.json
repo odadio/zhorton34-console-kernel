@@ -16,11 +16,4 @@
       "Zhorton\\": "Console/",
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Corcel\\Laravel\\CorcelServiceProvider"
-      ]
-    }
-  }
 }
