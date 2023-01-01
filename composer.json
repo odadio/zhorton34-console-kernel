@@ -13,8 +13,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Corcel\\": "src/",
-      "Corcel\\Tests\\": "tests/"
+      "Zhorton\\": "Console/",
     }
   },
   "extra": {
